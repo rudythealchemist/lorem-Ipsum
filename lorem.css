@@ -1,0 +1,60 @@
+*,
+::before,
+::after {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+
+.section-center {
+    width: 90vw;
+    margin-top: 30vh;
+}
+
+h3,
+.btn {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+label {
+    text-transform: capitalize;
+}
+
+input {
+    width: 5vw;
+    height: 3vh;
+    background: rgb(255, 214, 214);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.lorem-form {
+    text-align: center;
+
+}
+
+button {
+    background-color: rgb(131, 186, 241);
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(141, 217, 122);
+}
+
+button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    background: red;
+    /* Lowering the shadow */
+}
